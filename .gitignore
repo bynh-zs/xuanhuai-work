@@ -1,0 +1,19 @@
+# 系统与编辑器杂项
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 临时与构建产物
+*.tmp
+*.log
+node_modules/
+dist/
+.venv/
+__pycache__/
+
+# 本地私密配置（禁止入库）
+.env
+*.local
+
+# 自动生成的统计快照（可随时用脚本重跑）
+**/stats/contribution-generated.md
